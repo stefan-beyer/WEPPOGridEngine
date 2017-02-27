@@ -72,7 +72,7 @@ class ListConversion implements \WEPPO\Model\DBCastInterface2 {
     var $separator;
 
     function __construct($t = ',') {
-        $this->$separator = $t;
+        $this->separator = $t;
     }
 
     function parse($str) {
